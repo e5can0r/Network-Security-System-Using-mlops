@@ -1,0 +1,6 @@
+[ 2025-06-12 11:13:11,555 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-06-12 11:13:11,567 ] 107 dagshub - INFO - Accessing as e5can0r
+[ 2025-06-12 11:13:13,092 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/e5can0r/Network-Security-System-Using-mlops "HTTP/1.1 200 OK"
+[ 2025-06-12 11:13:14,527 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-06-12 11:13:14,530 ] 107 dagshub - INFO - Initialized MLflow to track repo "e5can0r/Network-Security-System-Using-mlops"
+[ 2025-06-12 11:13:14,542 ] 107 dagshub - INFO - Repository e5can0r/Network-Security-System-Using-mlops initialized!
