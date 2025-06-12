@@ -72,7 +72,8 @@ if uploaded_file:
 
     if st.button("🚀 Predict"):
         files = {"file": uploaded_file.getvalue()}
-        api_url = "http://localhost:8000/predict"  # 🔁 Adjust if deployed
+        api_url = "https://network-security-system-using-mlops-production.up.railway.app/predict"
+
 
         try:
             response = requests.post(api_url, files=files, headers={"accept": "application/json"})
