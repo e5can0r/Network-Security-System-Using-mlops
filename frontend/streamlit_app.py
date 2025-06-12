@@ -72,7 +72,7 @@ if uploaded_file:
 
     if st.button("🚀 Predict"):
         files = {"file": uploaded_file.getvalue()}
-        api_url = "https://network-security-system-using-mlops-production.up.railway.app/predict"
+        api_url = "https://network-security-system-using-mlops-production-d78c.up.railway.app/predict"
 
 
         try:
